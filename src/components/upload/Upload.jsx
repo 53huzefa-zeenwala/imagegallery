@@ -4,7 +4,6 @@ import ProgressList from './progressList/ProgressList'
 
 export default function Upload() {
   const [files, setFiles] = useState([])
-  console.log(files, 'uploadFile')
   return (
     <div>
       <Form setFiles={setFiles} />
